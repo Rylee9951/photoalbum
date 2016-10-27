@@ -1,0 +1,73 @@
+body{
+	background-color: #ccc;
+}
+#containerAlbum{
+	width: 100%
+}
+.header{
+	background-color: #541414;
+	height: 200px;
+}
+h1{
+	font-size: 100px;
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+ img{
+	width: 400px;
+	height: 300px;
+}
+#page1{
+	
+}
+.album{
+	width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: #914949;
+    border: 2px solid white;
+    margin: 60px 10px 10px 98px;
+	box-shadow: 10px 10px 5px #bbb;
+}
+h3{
+	text-align: center;
+	font-size: 30px;
+	color: #541414;
+}
+#gallery_layout{
+	display: flex;
+}
+
+.coloumn{
+	width: 300px;
+	height: 1105px;
+	background-color: #360505;
+}
+.pictures{
+	
+	width: 100%;
+}
+.header_pictures{
+	height: 200px;
+	width:100%;
+	background-color: #541414;
+	text-align: center;
+	font-size: 100px;
+}
+
+.button{
+	display: inline-block;
+	justify-content: space-around;
+	width: 200px;
+	height: 50px;
+	background-color: #ccc;
+	margin: 70px 0 0 25px;
+}
+.photos{
+	display: inline-block;
+    width: 330px;
+    height: 380px;
+    background-color: #570303;
+    margin: 70px 0 0 100px;
+}
