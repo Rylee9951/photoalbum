@@ -21,7 +21,7 @@ const AlbumListContainer = React.createClass({
 			)
 	}
 })
-const AlbumList =React.createClass({
+const AlbumList = React.createClass({
 	render: function (){
 		return(
 			<div id = "containerAlbum">
@@ -30,10 +30,11 @@ const AlbumList =React.createClass({
 					
 						{this.props.albums.map(cover =>{
 							return(
+							<Link to={`/Albums/${cover.id}`}>
 							<div className="album" key={cover.id}>
 							<img className="albums"	src={cover.coverphoto}/>
 							<h3>{cover.name}</h3>
-							</div>
+							</div></Link>
 							)
 							})
 						}
@@ -51,4 +52,3 @@ export default AlbumListContainer
 
 
 
-//<Link to={`/gallery/${album.id}`}>

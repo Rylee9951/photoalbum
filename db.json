@@ -3,32 +3,32 @@
     {
       "id": "album1",
       "coverphoto":"http://namonitore.ru/uploads/catalog/music/dj_tiesto_1600.jpg",
-      "name":"me"
+      "name":"Me"
     },
     {
       "id": "album2",
       "coverphoto":"http://nameberry.com/blog/wp-content/uploads/2011/11/sleepinglatino-283x412.jpg",
-      "name": "kids"
+      "name": "Kids"
     },
     {
       "id": "album3",
       "coverphoto":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSpQABohHYFKHtxCPNGZQw3bt-uvchor61DPKeP5k4HKpTH7Fog",
-      "name": "family"
+      "name": "Family"
     },
     {
       "id": "album4",
       "coverphoto":"http://img.thrfun.com/img/079/150/pit_bull_puppy_l1.jpg",
-      "name": "pets"
+      "name": "Pets"
     },
     {
       "id": "album5",
       "coverphoto":"http://www.minitalia.is/uploads/4/6/3/4/4634683/4653333_orig.jpg",
-      "name": "travel"
+      "name": "Travel"
     },
     {
       "id": "album6",
       "coverphoto":"http://runthetrap.com/wp-content/uploads/2015/03/umf14a_075.jpg",
-      "name": "concerts"
+      "name": "Concerts"
     }
   ],
   "photos": [
