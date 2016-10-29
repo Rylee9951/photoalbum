@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 
 require('assets/styles/style.css')
 
@@ -9,15 +9,15 @@ import App from 'layouts/app';
 
 import Albums from 'ui/Albums';
 
-import Gallery from 'ui/gallery'
+import Gallery_Layout from 'ui/gallery_layout'
 
 
 
 ReactDOM.render((
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route component={App}>
       <Route path='/' component={Albums}/>
-      <Route path= 'photo/:albumid' component={Gallery}/>
+      <Route path='/Albums/:id' component={Gallery_Layout}/>
     </Route>
   </Router>
 ), document.getElementById('app'));

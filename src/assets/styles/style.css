@@ -34,13 +34,17 @@ h3{
 	text-align: center;
 	font-size: 30px;
 	color: #541414;
+	
+}
+a{
+	text-decoration: none;
 }
 #gallery_layout{
 	display: flex;
 }
 
 .coloumn{
-	width: 300px;
+	width: 350px;
 	height: 1105px;
 	background-color: #360505;
 }
@@ -60,7 +64,7 @@ h3{
 	display: inline-block;
 	justify-content: space-around;
 	width: 200px;
-	height: 50px;
+	height: 90px;
 	background-color: #ccc;
 	margin: 70px 0 0 25px;
 }

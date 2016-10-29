@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 import {getAlbums} from 'api/photo_album'
+import store from 'store'
 
 const AlbumListContainer = React.createClass({
 	getInitialState: function(){
@@ -9,9 +10,12 @@ const AlbumListContainer = React.createClass({
 		}
 	},
 	componentWillMount: function(){
-		getAlbums().then(resp =>{
+		getAlbums()
+
+		store.subscribe(() =>{
+			const appState = store.getState()
 			this.setState({
-				albums: resp.data
+				albums: appState.albums
 			})
 		})
 	},
@@ -30,11 +34,12 @@ const AlbumList = React.createClass({
 					
 						{this.props.albums.map(cover =>{
 							return(
-							<Link to={`/Albums/${cover.id}`}>
-							<div className="album" key={cover.id}>
-							<img className="albums"	src={cover.coverphoto}/>
-							<h3>{cover.name}</h3>
-							</div></Link>
+								<div className="album" key ={cover.id}>
+									<Link to={`/Albums/${cover.id}`}>
+									<img className="albums"	src={cover.coverphoto}/>
+									<h3>{cover.name}</h3>
+									</Link>
+							</div>
 							)
 							})
 						}
