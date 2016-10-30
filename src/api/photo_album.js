@@ -22,7 +22,7 @@ export function getAlbum(albumId){
 }
 
 export function getPhotos(albumId) {
-	return axios.get(`photos/?albumid=album${albumId}`).then(function(resp){
+	return axios.get(`photos?albumid=${albumId}`).then(function(resp){
 		store.dispatch({
 			type: 'GET_PHOTOS',
 			photos: resp.data

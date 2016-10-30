@@ -75,3 +75,6 @@ a{
     background-color: #570303;
     margin: 70px 0 0 100px;
 }
+.photos > img{
+	width: 330px;
+}

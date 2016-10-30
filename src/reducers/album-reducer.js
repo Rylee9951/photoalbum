@@ -12,7 +12,7 @@ export default function(state = DefaultState, action){
 
 
 		case 'GET_PHOTOS':
-			return {...state,photos: action.photos}
+			return {...state, photos: action.photos}
 
 		default:
 			return state

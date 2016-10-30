@@ -44,7 +44,7 @@ const GalleryLayoutContainer = React.createClass({
 					{this.props.albums.map(tab =>{
 					return(
 						<div className="button" key={tab.id}>
-							<Link to={`/photos/${tab.id}`}>
+							<Link to={`/photos?albumid=${tab.id}`}>
 								<h3>{tab.name}</h3>
 								</Link>
 						</div>
@@ -57,12 +57,12 @@ const GalleryLayoutContainer = React.createClass({
 					<div className="header_pictures"><h1>Pictures</h1></div>
 					{this.props.photos.map(item =>
 					<div className="photos" >
-					<img className="pics" src={item.albumid.url}/>
+					<img className="pics" src={item.url}/>
 					</div>
 
 
 					)}
-				}
+				
 				</div>
 
 
