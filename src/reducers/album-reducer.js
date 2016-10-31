@@ -1,6 +1,7 @@
 const DefaultState = {
 	albums: [],
-	photos: []
+	photos: [],
+	currentPhoto: {	}
 }
 
 
@@ -13,6 +14,9 @@ export default function(state = DefaultState, action){
 
 		case 'GET_PHOTOS':
 			return {...state, photos: action.photos}
+
+		case 'GET_PHOTO':
+			return {...state, currentPhoto: action.photos }
 
 		default:
 			return state

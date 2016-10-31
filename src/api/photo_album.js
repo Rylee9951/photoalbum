@@ -16,7 +16,7 @@ export function getAlbum(albumId){
 	return axios.get(`Albums/album${albumId}`).then(function(resp){
 		store.dispatch({
 			type: 'GET_ALBUMS',
-			albums: resp.data
+			album: resp.data
 		})
 	})
 }
@@ -29,3 +29,14 @@ export function getPhotos(albumId) {
 		})
 	})
 }
+
+export function getPhoto(Id) {
+	return axios.get('photos/' + Id).then(resp => {
+		store.dispatch({
+			type: 'GET_PHOTO',
+			photos: resp.data
+		})
+	})
+}
+
+

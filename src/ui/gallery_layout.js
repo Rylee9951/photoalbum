@@ -13,20 +13,20 @@ const GalleryLayoutContainer = React.createClass({
 	},
 	componentWillMount: function(){
 		getAlbums()
-
-		store.subscribe(() =>{
-			const appState = store.getState()
-				this.setState({
-					albums: appState.albums
-			})
-		}),
 		getPhotos(this.props.params.id)
-			store.subscribe(()=>{
+
+		this.unsubscribe = store.subscribe(() => {
 				const appState = store.getState()
-					this.setState({
-						photos: appState.photos
+				this.setState({
+					albums: appState.albums,
+					photos: appState.photos
 			})
 		})
+
+	},
+
+	componentWillUnmount: function(){
+		this.unsubscribe()
 	},
 
 	render: function(){
@@ -37,42 +37,41 @@ const GalleryLayoutContainer = React.createClass({
 })
 
  const PhotoList = React.createClass({
+ 	clickHandler: function(item) {
+ 		getPhotos(item.id)
+ 	},
+
 	render: function (){
 		return(
 			<div id="gallery_layout">
 				<div className="coloumn">
 					{this.props.albums.map(tab =>{
 					return(
-						<div className="button" key={tab.id}>
-							<Link to={`/photos?albumid=${tab.id}`}>
+						<div className="button" key={tab.id} onClick={() => this.clickHandler(tab)}>
+							<Link to={`/Albums/${tab.id}`}>
 								<h3>{tab.name}</h3>
-								</Link>
+							</Link>
 						</div>
 								
 							)
 						})
-					}	
-					</div>
-					<div className="pictures">
-					<div className="header_pictures"><h1>Pictures</h1></div>
-					{this.props.photos.map(item =>
-					<div className="photos" >
-					<img className="pics" src={item.url}/>
-					</div>
-
-
-					)}
-				
+					})	
 				</div>
-
-
-				
-
-
-
+				<div className="pictures">
+					<div className="header_pictures"><h1>Pictures</h1></div>
+					
+					{this.props.photos.map(item =>
+						<div className="photos" key={item.url} >
+							<Link to={"/photo/" + item.id}>
+								<img className="pics" src={item.url}/>
+								<h4>{item.name}</h4>
+							</Link>
+						</div>
+					)}
+				</div>
 			</div>
 		)
-	}
+	} 
 })
 
 

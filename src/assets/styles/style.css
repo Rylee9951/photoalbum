@@ -6,7 +6,7 @@ body{
 }
 .header{
 	background-color: #541414;
-	height: 200px;
+	height: 150px;
 }
 h1{
 	font-size: 100px;
@@ -36,6 +36,12 @@ h3{
 	color: #541414;
 	
 }
+h4{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-top: 15px;
+}
 a{
 	text-decoration: none;
 }
@@ -53,7 +59,7 @@ a{
 	width: 100%;
 }
 .header_pictures{
-	height: 200px;
+	height: 150px;
 	width:100%;
 	background-color: #541414;
 	text-align: center;
@@ -66,7 +72,7 @@ a{
 	width: 200px;
 	height: 90px;
 	background-color: #ccc;
-	margin: 70px 0 0 25px;
+	margin: 70px 0 0 40px;
 }
 .photos{
 	display: inline-block;
@@ -75,6 +81,17 @@ a{
     background-color: #570303;
     margin: 70px 0 0 100px;
 }
-.photos > img{
+.pics{
 	width: 330px;
+	height: 300px;
+}
+.picture{
+	width: 1000px;
+	height: 600px;
+	margin:-50px 0 0 316px;
+	
+}
+.image{
+
+	margin: auto;
 }

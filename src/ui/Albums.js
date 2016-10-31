@@ -12,12 +12,15 @@ const AlbumListContainer = React.createClass({
 	componentWillMount: function(){
 		getAlbums()
 
-		store.subscribe(() =>{
+		this.unsubscribe = store.subscribe(() =>{
 			const appState = store.getState()
 			this.setState({
 				albums: appState.albums
 			})
 		})
+	},
+	componentWillUnmount: function(){
+		this.unsubscribe()
 	},
 	render: function(){
 		return (
