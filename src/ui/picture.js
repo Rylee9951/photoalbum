@@ -42,7 +42,7 @@ const PhotoProfile = React.createClass({
 	render: function (){
 		return(
 				<div className="image">
-					<div>
+					<div className="back">
 						<button onClick={this.goBack}>Go Back</button>
 					</div>
 						<div className="profile" >
