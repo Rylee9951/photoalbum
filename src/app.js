@@ -25,8 +25,8 @@ ReactDOM.render((
       <Route path='/' component={Albums}/>
       <Route path='/Albums/:id' component={Gallery_Layout}/>
       <Route path='/photo/:id' component={Picture}/>
-      <Route path='/createAlbum/' component={CreateAlbum}/>
-      <Route path='/createPhoto/' component={CreatePhoto}/>
+      <Route path='/Album/add' component={CreateAlbum}/>
+      <Route path='/Album/:albumId/add' component={CreatePhoto}/>
     </Route>
   </Router>
 ), document.getElementById('app'));

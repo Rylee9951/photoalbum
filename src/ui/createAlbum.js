@@ -3,41 +3,50 @@ import {Link, hashHistory} from 'react-router'
 import store from 'store'
 import {addAlbum} from 'api/photo_album'
 
-const createAlbumContainer = React.createClass({
+export default React.createClass({
 	getInitialState: function(){
 		return {
 			"name":"",
-			"coverphoto":""
+			"coverphoto":"",
 		}
 	},
+	handleSubmit: function (e) {
+		e.preventDefault()
+		var obj = {
+			name: this.state.name,
+			coverphoto: this.state.coverphoto
+		}
+		addAlbum(obj)
+	},
 	update: function(e){
-		var obj = this.getInitialState
+		var val = e.target.value
 		var id = e.target.id
 
-		obj[id] = e.target.value
+		var stateObj = {}
 
-		this.setState(obj)
+		stateObj[id] = val
+
+		this.setState(stateObj)
 	},
-
-	createAlbum: function() {
-		addAlbum(this.state).then(function(){
-			hashHistory.push('/Album/')	
-		})
-		
+	goBack: function (e) {
+		e.preventDefault()
+		hashHistory.goBack()
 	},
 	render: function (){
 		return(
-			<div className="create_album">
-			<p>Add New Album</p>
-				<form>
-					<input id="albumName" onChange={this.update} type="text" name="name" placeholder="Name of Album"></input>
-					<input id="coverPhoto_url" onChange={this.update} type="url" name="coverphoto" placeholder="Coverphoto url"></input><br />
-					<button id ="add_album" onClick={this.createAlbum}>Add Album</button>
-				</form>
+			<div className='add_photo_album'>
+				<div className="back">
+					<button onClick={this.goBack}>Cancel</button>
+				</div>
+				<div className="create_album">
+				<p>Add New Album</p>
+					<form onSubmit={this.handleSubmit}>
+						<input id="name" onChange={this.update} type="text" value={this.state.name} placeholder="Name of Photo"></input>
+						<input id="coverphoto" onChange={this.update} type="url" value={this.state.coverphoto} placeholder="Cover Photo url"></input><br />
+						<button id ="add_photo" type="submit">Submit</button>
+					</form>
+				</div>
 			</div>
-			
 		)
 	}
 })
-
-export default createAlbumContainer

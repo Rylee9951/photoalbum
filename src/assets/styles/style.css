@@ -67,7 +67,6 @@ a{
 
 .coloumn{
 	width: 350px;
-	height: 1105px;
 	background-color: #360505;
 }
 .pictures{
@@ -144,7 +143,7 @@ a{
 	margin-left: 30px;
 	border-radius: 5px;
 }
-#albumName{
+#name{
 	width: 150px;
 	height: 30px;
 	border-radius: 5px;
@@ -152,7 +151,7 @@ a{
 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
 	font-size: 22px;
 }
-#coverPhoto_url{
+#coverphoto{
 	width: 200px;
 	height: 30px;
 	border-radius: 5px;
@@ -191,7 +190,7 @@ p{
 	margin-left: 30px;
 	border-radius: 5px;
 }
-#photoName{
+#name{
 	width: 150px;
 	height: 30px;
 	border-radius: 5px;
