@@ -60,7 +60,7 @@ const GalleryLayoutContainer = React.createClass({
 				<div className="pictures">
 					<div className="header_pictures"><h1>Pictures</h1></div>
 						<Link to="/createPhoto/">
-							<button>Add Photo</button>
+							<button className="add">Add Photo</button>
 						</Link><br />
 							{this.props.photos.map(item =>
 								<div className="photos" key={item.url} >

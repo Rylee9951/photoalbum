@@ -34,7 +34,7 @@ const AlbumList = React.createClass({
 			<div id = "containerAlbum">
 				<div className="header"><h1>Albums</h1></div>
 				<Link to="/createAlbum/">
-					<button>Add Album</button>
+					<button className="add">Add Album</button>
 				</Link>
 					<div id="page1">	
 						{this.props.albums.map(cover =>{
