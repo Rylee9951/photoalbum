@@ -2,253 +2,251 @@
   "Albums": [
     {
       "id": 1,
-      "coverphoto":"http://namonitore.ru/uploads/catalog/music/dj_tiesto_1600.jpg",
-      "name":"Me"
+      "coverphoto": "http://namonitore.ru/uploads/catalog/music/dj_tiesto_1600.jpg",
+      "name": "Me"
     },
     {
       "id": 2,
-      "coverphoto":"http://nameberry.com/blog/wp-content/uploads/2011/11/sleepinglatino-283x412.jpg",
+      "coverphoto": "http://nameberry.com/blog/wp-content/uploads/2011/11/sleepinglatino-283x412.jpg",
       "name": "Kids"
     },
     {
       "id": 3,
-      "coverphoto":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSpQABohHYFKHtxCPNGZQw3bt-uvchor61DPKeP5k4HKpTH7Fog",
+      "coverphoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSpQABohHYFKHtxCPNGZQw3bt-uvchor61DPKeP5k4HKpTH7Fog",
       "name": "Family"
     },
     {
       "id": 4,
-      "coverphoto":"http://img.thrfun.com/img/079/150/pit_bull_puppy_l1.jpg",
+      "coverphoto": "http://img.thrfun.com/img/079/150/pit_bull_puppy_l1.jpg",
       "name": "Pets"
     },
     {
       "id": 5,
-      "coverphoto":"http://www.minitalia.is/uploads/4/6/3/4/4634683/4653333_orig.jpg",
+      "coverphoto": "http://www.minitalia.is/uploads/4/6/3/4/4634683/4653333_orig.jpg",
       "name": "Travel"
     },
     {
       "id": 6,
-      "coverphoto":"http://runthetrap.com/wp-content/uploads/2015/03/umf14a_075.jpg",
+      "coverphoto": "http://runthetrap.com/wp-content/uploads/2015/03/umf14a_075.jpg",
       "name": "Concerts"
     }
   ],
   "photos": [
-        {
-          "id": 1,
-          "name":"Can You Hear Me",
-          "url":"http://youredm.youredm1.netdna-cdn.com/wp-content/uploads/2016/10/tiesto-headphones-rukes.jpg?x98500",
-          "albumid": 1
-        },
-        { 
-          "id": 2,
-          "name":"Grammy's" ,  
-          "url":"http://vz.cnwimg.com/thumbc-300x300/wp-content/uploads/2009/11/tiesto.jpg",
-          "albumid": 1
-        },
-        {
-          "id": 3,
-          "name":"In Da Club",
-          "url":"https://tiestoclublife.files.wordpress.com/2016/04/dj_tiesto_club_life_img472.jpg",
-          "albumid": 1
-        },
-        {
-          "id": 4,
-          "name":"Me and Tila",
-          "url":"http://media.gettyimages.com/photos/tiesto-and-tila-tequila-during-dj-tiesto-at-9-steakhouse-at-the-palms-picture-id110291854",
-          "albumid": 1
-        },
-        {
-          "id": 5,
-          "name":"I Beleive I Can Fly",
-          "url":"http://media1.fdncms.com/sfexaminer/imager/tiesto/u/original/2867262/atiesto2.jpg",
-          "albumid": 1
-        },
-        {
-          "id": 6,
-          "name":"Suited",
-          "url":"https://s-media-cache-ak0.pinimg.com/736x/15/f4/47/15f447c1f0169a0b339662dd71807516.jpg",
-          "albumid": 1
-        },
-        {
-          "id": 7,
-          "name":"At the Park",
-          "url":"http://www.agmisgpn.org/sites/default/files/Latin%20Am%20kids.jpg",
-          "albumid": 2
-        },
-        {
-          "id": 8,
-          "name":"Chocolate Fun",
-          "url":"http://www.incultureparent.com/wp-content/uploads/2013/04/2013aprICP-chocolate.jpg",
-          "albumid": 2
-        },
-        {
-          "id": 9,
-          "name":"Listen Linda",
-          "url":"http://i2.cdn.turner.com/dr/hln/www/release/sites/default/files/imagecache/textarticle_640/2014/03/12/youtube.jpg",
-          "albumid": 2
-        },
-        {
-          "id": 10,
-          "name":"He's the Boss",
-          "url":"https://s-media-cache-ak0.pinimg.com/originals/00/69/90/006990d04f8dd925d85f336bccd3dd4f.jpg",
-          "albumid": 2
-        },
-        {
-          "id": 11,
-          "name":"Look at Me",
-          "url":"http://assets-s3.usmagazine.com/uploads/assets/articles/82136-new-gerber-baby-is-7-month-old-girl-named-grace/1421876680_grace-gerber-baby-zoom.jpg",
-          "albumid": 2
-        },
-        {
-          "id": 12,
-          "name":"I'm Hungry",
-          "url":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Baby_Face.JPG",
-          "albumid": 2
-    
-        },
-        {
-          "id": 13,
-          "name":"Sunset",
-          "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSpQABohHYFKHtxCPNGZQw3bt-uvchor61DPKeP5k4HKpTH7Fog",
-          "albumid": 3
-        },
-        {
-          "id": 14,
-          "name":"Cut Out Fam",
-          "url":"http://www.renaissanceranchutah.com/wp-content/uploads/2015/10/Addiction-Support-Program-Family.jpg",
-          "albumid": 3
-        },
-        {
-          "id": 15,
-          "name":"In the Field",
-          "url":"https://aos.iacpublishinglabs.com/question/aq/700px-394px/roles-family-member_df2c6cebbba36857.jpg?domain=cx.aos.ask.com",
-          "albumid": 3
-        },
-        {
-          "id": 16,
-          "name":"On the Beach",
-          "url":"http://f.tqn.com/y/spanish/1/W/I/U/dominican-family-beach.jpg",
-          "albumid": 3
-        },
-        {
-          "id": 17,
-          "name":"Da Bamas",
-          "url":"https://upload.wikimedia.org/wikipedia/commons/e/ec/Family_of_Barack_Obama.jpg",
-          "albumid": 3
-        },
-        {
-          "id": 18,
-          "name":"Alba",
-          "url":"http://cdn02.cdn.justjared.com/wp-content/uploads/2012/06/alba-saturday/jessica-alba-saturday-family-outing-09.jpg",
-          "albumid": 3
-        },
-        {
-          "id": 19,
-          "name":"At the Park",
-          "url":"http://www.pitbull411.com/images/dixie1_pit_bull.jpg",
-          "albumid": 4
-        },
-        {
-          "id": 20,
-          "name":"I Look Good",
-          "url":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuM6X4gXaFSAG3yEVgpxw4ezO-kDPiS8hQMw3nTKsue03aQGjWIg",
-          "albumid": 4
-        },
-        {
-          "id": 21,
-          "name":"Dont Mess with Me",
-          "url":"https://i.ytimg.com/vi/zK9UADwTLFg/hqdefault.jpg",
-          "albumid": 4
-        },
-        {
-          "id": 22,
-          "name":"I can Swim",
-          "url":"https://i.ytimg.com/vi/5wdgrEGE50Q/maxresdefault.jpg",
-          "albumid": 4
-        },
-        {
-          "id": 23,
-          "name":"I'm cute",
-          "url":"http://www.cutepuppies.net/sites/cutepuppies.net/files/imagecache/default/images/bubby.jpg",
-          "albumid": 4
-        },
-        {
-          "id": 24,
-          "name":"Play Fetch",
-          "url":"http://dogsaholic.com/wp-content/uploads/2015/04/American-Amstaff.jpg",
-          "albumid": 4
-        },
-        {
-          "id": 25,
-          "name":"Florence",
-          "url":"https://media-cdn.tripadvisor.com/media/photo-s/02/63/d5/0e/nice-view.jpg",
-          "albumid": 5
-        },
-        {
-          "id": 26,
-          "name":"Kauai",
-          "url":"http://hawaii.kauai.com/blog/wp-content/uploads/2012/01/Kauai-017.jpg",
-          "albumid": 5
-        },
-        {
-          "id": 27,
-          "name":"Trinidad",
-          "url":"http://www.beach-on-map.com/img/8/trinidad-and-tobago-trinidad-maracas-bay-beach-palms.jpg",
-          "albumid": 5
-        },
-        {
-          "id": 28,
-          "name":"Golden Gate Bridge",
-          "url":"http://www.unc.edu/~eturshy/comp101/project4/sunsetbridge.jpg",
-          "albumid": 5
-        },
-        {
-          "id": 29,
-          "name":"Pacific Beach",
-          "url":"https://s3.amazonaws.com/citybuzz/2015/11/pacific-beach-san-diego-city/pacific-beach-san-diego-3.jpg",
-          "albumid": 5
-    
-        },
-        {
-          "id": 30,
-          "name":"Venice",
-          "url":"http://tamesoperadora.com/wp-content/uploads/2015/08/Venice-Italy-city-buildings-sea-boat-canal-sky-clouds_2560x1440.jpg",
-          "albumid": 5
-        },
-        {
-          "id": 31,
-          "name":"Red Hot Chili Peppers",
-          "url":"https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/02/03/BostonGlobe.com/Metro/Images/ed59cf5ce57844b383357ef781d21d37-ed59cf5ce57844b383357ef781d21d37-0.jpg",
-          "albumid": 6
-        },
-        {
-          "id": 32,
-          "name":"The Killers",
-          "url":"http://www.vegasnews.com/wp-content/uploads/mpiEKP_09_27_15_LIB_brandonkillers_day3_kabik-10-588.jpg",
-          "albumid": 6
-        },
-        {
-          "id": 33,
-          "name":"Nine Inch Nails",
-          "url":"https://s-media-cache-ak0.pinimg.com/originals/57/93/98/579398081a90a0fc388712bc970a36eb.jpg",
-          "albumid": 6
-        },
-        {
-          "id": 34,
-          "name":"Hot Hot Heat",
-          "url":"http://media.gettyimages.com/photos/hot-hot-heat-during-the-1067-kroq-weenie-roast-concert-2005-show-at-picture-id105714353?s=594x594",
-          "albumid": 6
-        },
-        {
-          "id": 35,
-          "name":"Ultra",
-          "url":"https://umfworldwide.com/wp-content/uploads/2016/09/japan-rukes-news.jpg",
-          "albumid": 6
-        },
-        {
-          "id": 36,
-          "name":"John Legend",
-          "url":"http://thekey.xpn.org/aatk/files/2012/08/johnlegend.jpg",
-          "albumid": 6
-        }
-    ]
+    {
+      "id": 1,
+      "name": "Can You Hear Me",
+      "url": "http://youredm.youredm1.netdna-cdn.com/wp-content/uploads/2016/10/tiesto-headphones-rukes.jpg?x98500",
+      "albumid": 1
+    },
+    {
+      "id": 2,
+      "name": "Grammy's",
+      "url": "http://vz.cnwimg.com/thumbc-300x300/wp-content/uploads/2009/11/tiesto.jpg",
+      "albumid": 1
+    },
+    {
+      "id": 3,
+      "name": "In Da Club",
+      "url": "https://tiestoclublife.files.wordpress.com/2016/04/dj_tiesto_club_life_img472.jpg",
+      "albumid": 1
+    },
+    {
+      "id": 4,
+      "name": "Me and Tila",
+      "url": "http://media.gettyimages.com/photos/tiesto-and-tila-tequila-during-dj-tiesto-at-9-steakhouse-at-the-palms-picture-id110291854",
+      "albumid": 1
+    },
+    {
+      "id": 5,
+      "name": "I Beleive I Can Fly",
+      "url": "http://media1.fdncms.com/sfexaminer/imager/tiesto/u/original/2867262/atiesto2.jpg",
+      "albumid": 1
+    },
+    {
+      "id": 6,
+      "name": "Suited",
+      "url": "https://s-media-cache-ak0.pinimg.com/736x/15/f4/47/15f447c1f0169a0b339662dd71807516.jpg",
+      "albumid": 1
+    },
+    {
+      "id": 7,
+      "name": "At the Park",
+      "url": "http://www.agmisgpn.org/sites/default/files/Latin%20Am%20kids.jpg",
+      "albumid": 2
+    },
+    {
+      "id": 8,
+      "name": "Chocolate Fun",
+      "url": "http://www.incultureparent.com/wp-content/uploads/2013/04/2013aprICP-chocolate.jpg",
+      "albumid": 2
+    },
+    {
+      "id": 9,
+      "name": "Listen Linda",
+      "url": "http://i2.cdn.turner.com/dr/hln/www/release/sites/default/files/imagecache/textarticle_640/2014/03/12/youtube.jpg",
+      "albumid": 2
+    },
+    {
+      "id": 10,
+      "name": "He's the Boss",
+      "url": "https://s-media-cache-ak0.pinimg.com/originals/00/69/90/006990d04f8dd925d85f336bccd3dd4f.jpg",
+      "albumid": 2
+    },
+    {
+      "id": 11,
+      "name": "Look at Me",
+      "url": "http://assets-s3.usmagazine.com/uploads/assets/articles/82136-new-gerber-baby-is-7-month-old-girl-named-grace/1421876680_grace-gerber-baby-zoom.jpg",
+      "albumid": 2
+    },
+    {
+      "id": 12,
+      "name": "I'm Hungry",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Baby_Face.JPG",
+      "albumid": 2
+    },
+    {
+      "id": 13,
+      "name": "Sunset",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSpQABohHYFKHtxCPNGZQw3bt-uvchor61DPKeP5k4HKpTH7Fog",
+      "albumid": 3
+    },
+    {
+      "id": 14,
+      "name": "Cut Out Fam",
+      "url": "http://www.renaissanceranchutah.com/wp-content/uploads/2015/10/Addiction-Support-Program-Family.jpg",
+      "albumid": 3
+    },
+    {
+      "id": 15,
+      "name": "In the Field",
+      "url": "https://aos.iacpublishinglabs.com/question/aq/700px-394px/roles-family-member_df2c6cebbba36857.jpg?domain=cx.aos.ask.com",
+      "albumid": 3
+    },
+    {
+      "id": 16,
+      "name": "On the Beach",
+      "url": "http://f.tqn.com/y/spanish/1/W/I/U/dominican-family-beach.jpg",
+      "albumid": 3
+    },
+    {
+      "id": 17,
+      "name": "Da Bamas",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Family_of_Barack_Obama.jpg",
+      "albumid": 3
+    },
+    {
+      "id": 18,
+      "name": "Alba",
+      "url": "http://cdn02.cdn.justjared.com/wp-content/uploads/2012/06/alba-saturday/jessica-alba-saturday-family-outing-09.jpg",
+      "albumid": 3
+    },
+    {
+      "id": 19,
+      "name": "At the Park",
+      "url": "http://www.pitbull411.com/images/dixie1_pit_bull.jpg",
+      "albumid": 4
+    },
+    {
+      "id": 20,
+      "name": "I Look Good",
+      "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQuM6X4gXaFSAG3yEVgpxw4ezO-kDPiS8hQMw3nTKsue03aQGjWIg",
+      "albumid": 4
+    },
+    {
+      "id": 21,
+      "name": "Dont Mess with Me",
+      "url": "https://i.ytimg.com/vi/zK9UADwTLFg/hqdefault.jpg",
+      "albumid": 4
+    },
+    {
+      "id": 22,
+      "name": "I can Swim",
+      "url": "https://i.ytimg.com/vi/5wdgrEGE50Q/maxresdefault.jpg",
+      "albumid": 4
+    },
+    {
+      "id": 23,
+      "name": "I'm cute",
+      "url": "http://www.cutepuppies.net/sites/cutepuppies.net/files/imagecache/default/images/bubby.jpg",
+      "albumid": 4
+    },
+    {
+      "id": 24,
+      "name": "Play Fetch",
+      "url": "http://dogsaholic.com/wp-content/uploads/2015/04/American-Amstaff.jpg",
+      "albumid": 4
+    },
+    {
+      "id": 25,
+      "name": "Florence",
+      "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/63/d5/0e/nice-view.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 26,
+      "name": "Kauai",
+      "url": "http://hawaii.kauai.com/blog/wp-content/uploads/2012/01/Kauai-017.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 27,
+      "name": "Trinidad",
+      "url": "http://www.beach-on-map.com/img/8/trinidad-and-tobago-trinidad-maracas-bay-beach-palms.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 28,
+      "name": "Golden Gate Bridge",
+      "url": "http://www.unc.edu/~eturshy/comp101/project4/sunsetbridge.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 29,
+      "name": "Pacific Beach",
+      "url": "https://s3.amazonaws.com/citybuzz/2015/11/pacific-beach-san-diego-city/pacific-beach-san-diego-3.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 30,
+      "name": "Venice",
+      "url": "http://tamesoperadora.com/wp-content/uploads/2015/08/Venice-Italy-city-buildings-sea-boat-canal-sky-clouds_2560x1440.jpg",
+      "albumid": 5
+    },
+    {
+      "id": 31,
+      "name": "Red Hot Chili Peppers",
+      "url": "https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2014/02/03/BostonGlobe.com/Metro/Images/ed59cf5ce57844b383357ef781d21d37-ed59cf5ce57844b383357ef781d21d37-0.jpg",
+      "albumid": 6
+    },
+    {
+      "id": 32,
+      "name": "The Killers",
+      "url": "http://www.vegasnews.com/wp-content/uploads/mpiEKP_09_27_15_LIB_brandonkillers_day3_kabik-10-588.jpg",
+      "albumid": 6
+    },
+    {
+      "id": 33,
+      "name": "Nine Inch Nails",
+      "url": "https://s-media-cache-ak0.pinimg.com/originals/57/93/98/579398081a90a0fc388712bc970a36eb.jpg",
+      "albumid": 6
+    },
+    {
+      "id": 34,
+      "name": "Hot Hot Heat",
+      "url": "http://media.gettyimages.com/photos/hot-hot-heat-during-the-1067-kroq-weenie-roast-concert-2005-show-at-picture-id105714353?s=594x594",
+      "albumid": 6
+    },
+    {
+      "id": 35,
+      "name": "Ultra",
+      "url": "https://umfworldwide.com/wp-content/uploads/2016/09/japan-rukes-news.jpg",
+      "albumid": 6
+    },
+    {
+      "id": 36,
+      "name": "John Legend",
+      "url": "http://thekey.xpn.org/aatk/files/2012/08/johnlegend.jpg",
+      "albumid": 6
+    }
+  ]
 }

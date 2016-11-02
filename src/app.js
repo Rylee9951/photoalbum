@@ -13,6 +13,10 @@ import Gallery_Layout from 'ui/gallery_layout'
 
 import Picture from 'ui/picture'
 
+import CreateAlbum from 'ui/createAlbum'
+
+import CreatePhoto from 'ui/createPhoto'
+
 
 
 ReactDOM.render((
@@ -21,6 +25,8 @@ ReactDOM.render((
       <Route path='/' component={Albums}/>
       <Route path='/Albums/:id' component={Gallery_Layout}/>
       <Route path='/photo/:id' component={Picture}/>
+      <Route path='/createAlbum/' component={CreateAlbum}/>
+      <Route path='/createPhoto/' component={CreatePhoto}/>
     </Route>
   </Router>
 ), document.getElementById('app'));

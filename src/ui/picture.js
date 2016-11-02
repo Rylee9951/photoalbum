@@ -22,7 +22,6 @@ const PictureContainer = React.createClass({
 						photo: appState.currentPhoto
 			})
 		})
-		console.log(this.state.photo)
 	},
 	componentWillUnmount: function() {
 		this.unsubscribe()
@@ -46,14 +45,13 @@ const PhotoProfile = React.createClass({
 						<button onClick={this.goBack}>Go Back</button>
 					</div>
 						<div className="profile" >
-						<h1>{this.props.photo.name}</h1>
+							<h1>{this.props.photo.name}</h1>
 							<img className="picture" src={this.props.photo.url}/>
 							
 						</div>
-					
 				</div>
 			
-		)
+			)
 	}
 })
 

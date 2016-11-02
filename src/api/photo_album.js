@@ -39,4 +39,24 @@ export function getPhoto(Id) {
 	})
 }
 
+export function addAlbum(obj) {
+	return axios.post('Albums', obj).then(resp => {
+		store.dispatch({
+			type: 'ADD_ALBUM',
+			albums: obj
 
+		})
+	})
+}
+
+export function addPhoto(obj) {
+	return axios.post('photos', obj).then(resp => {
+		store.dispatch({
+			type: 'ADD_PHOTO',
+			photos: obj
+
+		})
+	})
+}
+
+//post

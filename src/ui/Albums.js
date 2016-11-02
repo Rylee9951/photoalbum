@@ -33,23 +33,22 @@ const AlbumList = React.createClass({
 		return(
 			<div id = "containerAlbum">
 				<div className="header"><h1>Albums</h1></div>
-				<div id="page1">
-					
+				<Link to="/createAlbum/">
+					<button>Add Album</button>
+				</Link>
+					<div id="page1">	
 						{this.props.albums.map(cover =>{
 							return(
 								<div className="album" key ={cover.id}>
 									<Link to={`/Albums/${cover.id}`}>
-									<img className="albums"	src={cover.coverphoto}/>
-									<h3>{cover.name}</h3>
+										<img className="albums"	src={cover.coverphoto}/>
+										<h3>{cover.name}</h3>
 									</Link>
-							</div>
+								</div>
 							)
-							})
-						}
-						
-					
-						
-				</div>
+						})
+					}
+					</div>
 			</div>
 		)
 	}
