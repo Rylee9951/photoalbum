@@ -29,10 +29,7 @@ const AlbumListContainer = React.createClass({
 	}
 })
 const AlbumList = React.createClass({
-	deleteAlbum: function(e){
-		var id = e.target.id
-		deleteAlbum(this.props.id)
-	},
+	
 	render: function (){
 		return(
 			<div id = "containerAlbum">
@@ -46,7 +43,7 @@ const AlbumList = React.createClass({
 										<img className="albums"	src={cover.coverphoto}/>
 										<h3>{cover.name}</h3>
 									</Link>
-									<button id={cover.id} onClick= {this.deleteAlbum}>Delete</button>
+									<button>Delete</button>
 								</div>
 							)
 						})

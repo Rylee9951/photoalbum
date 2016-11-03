@@ -57,10 +57,6 @@ export function deletePhoto(id, albumId){
 		getPhotos(albumId)
 	})
 }
-export function deleteAlbum(id){
-	return axios.delete(`albums/${id}`).then(resp =>{
-		getAlbums()
-	})
-}
+
 
 //post

@@ -41,7 +41,7 @@ export default React.createClass({
 				<div className="create_album">
 				<p>Add New Album</p>
 					<form onSubmit={this.handleSubmit}>
-						<input id="name" onChange={this.update} type="text" value={this.state.name} placeholder="Name of Photo"></input>
+						<input id="name" onChange={this.update} type="text" value={this.state.name} placeholder="Name of Album"></input>
 						<input id="coverphoto" onChange={this.update} type="url" value={this.state.coverphoto} placeholder="Cover Photo url"></input><br />
 						<button id ="add_photo" type="submit">Submit</button>
 					</form>

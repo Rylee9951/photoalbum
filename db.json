@@ -39,6 +39,11 @@
       "name": "Ocean",
       "coverphoto": "http://www.firsthdwallpapers.com/uploads/2013/10/ocean-wallpapers.jpg",
       "id": 8
+    },
+    {
+      "name": "Funny",
+      "coverphoto": "http://cdn1-www.craveonline.com/assets/uploads/2016/01/imaged-1115194.jpg",
+      "id": 9
     }
   ],
   "photos": [
@@ -281,6 +286,24 @@
       "url": "https://shareonline.in/wp-content/uploads/2016/05/animal-planet-images-download-eagle-animal-planet-3303078-2000-1333-ixKaoG.jpg",
       "albumId": 7,
       "id": 44
+    },
+    {
+      "name": "Get Out of My Way ",
+      "url": "http://unwallpapers.com/wp-content/uploads/2014/08/Ocean-Animals-Wallpaper-Hd-Download.jpg",
+      "albumId": 8,
+      "id": 45
+    },
+    {
+      "name": "Good Idea",
+      "url": "http://www.dumpaday.com/wp-content/uploads/2016/05/funny-527.jpg",
+      "albumId": 9,
+      "id": 46
+    },
+    {
+      "name": "Happens Everytime",
+      "url": "https://s-media-cache-ak0.pinimg.com/originals/80/1a/14/801a146d1d0c349bf202d46dfd5ff302.jpg",
+      "albumId": 9,
+      "id": 47
     }
   ]
 }
